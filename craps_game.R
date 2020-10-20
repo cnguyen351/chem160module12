@@ -63,7 +63,7 @@ S <- matrix(0,6,1)
 S[6,1] <- 1.
 
 #Insert 6 lines here to run model and print results
-for (i in 1:5) {
+for (i in 1:100) {
   S <- P%*%S
 }
 cat("Win %=",S[1],"\n")
